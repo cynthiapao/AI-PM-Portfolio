@@ -1,0 +1,23 @@
+# Publish only the static website files needed by GitHub Pages.
+*
+
+!.gitignore
+!.nojekyll
+!README.md
+
+!index.html
+!home.css
+!detail.css
+!main.js
+
+!ai-store-assistant.html
+!ai-store-diagnosis.html
+!ai-store-query.html
+!merchant-cognition.html
+!store-supply.html
+
+!insights.html
+!insights/
+!insights/*.html
+
+!profile-picture.png

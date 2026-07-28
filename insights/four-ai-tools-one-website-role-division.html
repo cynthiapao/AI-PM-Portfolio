@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>四个 AI 怎么分工？从设计、执行到文案精修 | Kangxin Bao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../detail.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="detail-page insight-article-page">
+    <header class="site-header">
+  <a class="brand" href="../index.html#hero" aria-label="返回首页">
+    <span class="brand-mark">BX</span>
+    <span>
+      <strong>Kangxin Bao</strong>
+      <small>AI 产品经理</small>
+    </span>
+  </a>
+  <div class="status-container" aria-label="当前动态">
+    <span class="status-dot"></span>
+    <span class="status-text">持续更新ing...</span>
+  </div>
+  <nav class="nav-links" aria-label="洞察页导航">
+    <a href="../index.html#about">关于我</a>
+    <a href="../index.html#projects">项目经验</a>
+    <a href="../index.html#insights">产品洞察</a>
+    <a class="resume-button" href="../index.html#hero">返回首页</a>
+  </nav>
+</header>
+    <main>
+      <section class="section insight-article-hero">
+        <a class="secondary-cta" href="../insights.html">← 返回产品洞察</a>
+        <p class="top-tag">AI INSIGHT</p>
+        <h1>四个 AI 怎么分工？从设计、执行到文案精修</h1>
+        <p class="detail-lead">Gemini 找方向、Codex 做执行、Claude 梳理逻辑、DeepSeek 润色中文：四个工具各自解决不同问题。</p>
+        <p class="article-meta-line">2026.07.20 <span aria-hidden="true">·</span> 5 min read</p>
+        <div class="pill-row detail-pills article-tags">
+          <span>AI工具</span>
+<span>AI建站</span>
+<span>多模型协作</span>
+        </div>
+        <p class="article-note">本文基于一次个人网站项目的真实使用记录，不构成通用模型能力排名</p>
+      </section>
+
+      <article class="section insight-article-body">
+        <h2>一句话看懂</h2>
+<p>做完这个个人网站后，我没法说这四个模型“谁比谁更强”。更真实的情况是，一个项目在不同阶段会遇到不同的问题。Gemini 帮我把模糊的个人感受转化为设计方案，Codex（ChatGPT）把明确的修改意图落实成具体的代码，Claude 用它强大的逻辑推理能力帮我挖掘项目之间的关系，DeepSeek 则更长于中文内容的起草与润色。</p>
+<h2>核心体验</h2>
+<div class="article-version-note"><strong>体验版本</strong><div><span>Gemini 3.5 Flash</span><span>Codex 搭配 GPT-5.5</span><span>Claude Sonnet 5</span><span>DeepSeek V4 Flash</span></div></div>
+<h3>Gemini：把不是网页的参考图，翻译成网页设计</h3>
+<p><strong>网站最初的设计来自 Gemini</strong>。我给它的参考并不是网站截图，而是一张自己喜欢的设计样例，再补充个人背景和网站目标。它把参考图里的视觉感觉转换成了网页，第一版整体方向就让我比较满意。这一步真正厉害的地方，不是照着网页截图复刻，而是能从另一种视觉材料中提取风格，再结合我的经历重新组织成网页。它先给出了一个可讨论的设计，我才有可能继续判断哪里接近、哪里需要调整。Gemini 也会在我不知道怎样表达时提供设计和文案方向。</p>
+<p>不过，它的<strong>语言容易用力过猛</strong>，比如称我的修正“非常敏锐”、经历“含金量极高”。它能迅速打开表达空间，却不一定知道什么程度才像我。</p>
+<h3>Codex（ChatGPT）：方向越明确，执行越稳定</h3>
+<p><strong>初版方案形成后，大部分代码修改由 Codex（ChatGPT）完成。</strong>只要我能明确说出改哪里、希望达到什么效果，执行通常很顺，除了有一次中文乱码，基本没有遇到阻断性问题。详情页标题下方的一条装饰线却用了三到四轮。这不是代码一直出错，而是我起初也不知道它应该长什么样：有些对话是在执行需求，有些对话是在一起找出需求。</p>
+<p>但更严重的一次是，我让它调整一张架构图的箭头，前后改了五轮，中间几轮不是指向混乱，就是箭头遮挡文字。与装饰线相比，这已经不只是审美目标尚未明确：箭头需要表达组件之间的关系，也不应该破坏文字可读性。它似乎<strong>只执行了局部修改</strong>，没有从整张图的逻辑和合理性上做复核。</p>
+<h3>Claude：沿着逻辑链，找到项目之间的内在关系</h3>
+<p>和 Claude 对话时，我常<strong>有一种看它写论文的感觉</strong>。它不会急着跳到结论，而是把前提、关系和疑问逐步展开，最后再给出判断。我请它审阅 B 端数据产品详情页时，它发现这个项目不是作品集中一段孤立的经历，而是与 AI PM 能力及其他项目具有内在关系。因此，它建议更早回答“为什么这个项目会出现在 AI PM 作品集里”，先建立联系，再展开项目。</p>
+<p>这不是简单润色，而是重新梳理整份作品集的逻辑。换句话说，Claude 不只是看单页写得好不好，还会追问这段经历在整个职业叙事里承担什么作用，并要求我把这层关系明确写出来，而不是让读者自己猜。</p>
+<h3>DeepSeek：在 Gemini 初稿上继续精修中文</h3>
+<p>为 Hero 页寻找中文副标题时，Gemini 一次给了四个版本。它的词汇更丰富，比如：“下探复杂数据基建，上接 AI Agent 架构。用扎实的底层治理为大模型设定边界，交付确定性的 B 端商业闭环。”短版则是：“用底层数据治理驯服大模型幻觉，用 AI Agent 架构重塑 B 端商业闭环。”这些版本各有优点，但放在个人网站首页有些用力。最后我采用了 DeepSeek 给出的副标题：“既懂大模型的行为边界，也懂 B 端系统的架构约束——让 AI 在真实场景里成为可信赖的决策伙伴。”它没有前面几个版本那么高调，但更接近我希望呈现的专业感。</p>
+<p>如果要写一段新文案，我还是会<strong>优先让 Gemini 生成初稿，再用 DeepSeek 精修中文。</strong>对我来说，它们更像“先发散，再收敛”，而不是二选一。</p>
+<h2>为什么有效</h2>
+<p>四个工具真正解决的是四类问题：<strong>Gemini</strong> 负责从模糊输入中寻找方向；<strong>Codex（ChatGPT）</strong>执行已经明确的修改；<strong>Claude</strong> 把分散经历串成完整逻辑；Gemini 和 <strong>DeepSeek</strong> 则分别承担文案发散与精修。它们的验收方式也不同：设计方向靠方案比较，代码执行看页面和影响范围，内容逻辑看读者能否理解项目关系，中文文案则要判断是否准确、自然、可信。</p>
+<p><strong>先知道当前要解决什么、怎样算完成，才能选对工具</strong>。这种分工不是给工具贴上固定标签。同一个工具也可以完成其他任务，只是在这次项目里，不同阶段需要的输入和判断方式不同。与其追求一个工具包办全部工作，不如先把问题拆清楚，再决定从哪里获得方向、执行或校准。</p>
+<h2>问题与边界</h2>
+<p>这不是一次严格的横向测评。我没有把同一个完整任务、同一份上下文和同一套标准同时交给四个工具，实际分工本身也会影响判断。因此，这更接近一次工作流观察，而不是模型排名。</p>
+<p>多工具协作也有交接成本。每次切换，都要重新说明背景、目标、已经确认的设计和不喜欢的表达。如果这些信息没有完整带过去，新工具可能会从错误的起点开始。而且，工具得到的材料并不相同：Gemini 看到了视觉参考，Codex（ChatGPT）接触了完整代码，Claude 从作品集逻辑出发审阅，DeepSeek 处理的是相对明确的中文文案。忽略这些条件，就容易把任务差异误认为纯粹的模型差异。</p>
+<h2>我的判断</h2>
+<p>我现在不会去问“哪个 AI 最强”。更应该思考的问题是：当前任务卡住的究竟是方向、执行、逻辑，还是表达？任务也不应该只有一个提示词，而应包含必要背景、已有决策、事实边界和验收标准。我也不认为最终文案应该交给某个模型替我判断。Gemini 提供更丰富的词汇和方向，DeepSeek 帮助精修中文，而我需要根据自己的经历决定哪句话既有信息量，又更贴合我最想呈现的内容。</p>
+<p>目前真正的协调者仍然是我：选择工具、补充背景、记录已经确认的决定，再判断下一步交给谁。多工具看起来是能力叠加，背后也增加了一份上下文管理工作；如果切换收益不够大，继续使用同一个工具反而更高效。</p>
+<p>这些产品已经开始解决上下文延续的问题。Gemini 和 Claude 提供记忆导入；ChatGPT 可以通过项目文档、保存的记忆和历史对话形成长期上下文；在我目前的 DeepSeek 使用中，还没有获得同等的跨对话记忆体验。接下来更值得关注的，不只是“有没有记忆”，而是记忆能否围绕项目组织、由用户修正，并在不同工具之间迁移。</p>
+<h2>可迁移的方法</h2>
+<h3>1. 先判断当前的卡点在哪里</h3>
+<p>区分任务卡在方向、执行、逻辑还是表达，再选择更匹配的工具。</p>
+<h3>2. 把探索和执行分成两个阶段</h3>
+<p>目标模糊时先比较方向；目标明确后，再用修改范围和验收标准驱动执行。</p>
+<h3>3. 为模型切换准备可迁移的上下文</h3>
+<p>固定保存项目目标、背景、已确认决策、参考材料和禁用表达，切换工具时整体传递。</p>
+<h3>4. 把多个输出当作备选</h3>
+<p>比较不同方案的信息密度、自然度和可信度，再由人决定最终表达。</p>
+<h2>信息来源</h2>
+<ul>
+<li>个人建站过程记录与模型对话（2026 年 7 月）</li>
+<li>官方介绍：<a href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini</a>、<a href="https://openai.com/index/introducing-the-codex-app/" target="_blank" rel="noopener">Codex</a>、<a href="https://www.anthropic.com/news/introducing-claude" target="_blank" rel="noopener">Claude</a>、<a href="https://api-docs.deepseek.com/news/news250115" target="_blank" rel="noopener">DeepSeek</a></li>
+<li>记忆功能说明：<a href="https://support.google.com/gemini/answer/16868299" target="_blank" rel="noopener">Gemini</a>、<a href="https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude" target="_blank" rel="noopener">Claude</a>、<a href="https://help.openai.com/en/articles/8983136-what-is-memory" target="_blank" rel="noopener">ChatGPT</a></li>
+</ul>
+      </article>
+
+      <section class="section detail-section detail-next">
+        <a class="secondary-cta" href="../index.html#insights">← 返回首页洞察</a>
+        <a class="primary-cta" href="../insights.html">
+          查看全部产品洞察
+          <span aria-hidden="true">→</span>
+        </a>
+      </section>
+    </main>
+    <footer class="detail-copyright">© 2026 Kangxin Bao. All rights reserved.</footer>
+    <script src="../main.js"></script>
+    <script>
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    </script>
+  </body>
+</html>

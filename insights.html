@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品洞察 | Kangxin Bao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="detail.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="detail-page insight-archive-page">
+    <header class="site-header">
+  <a class="brand" href="index.html#hero" aria-label="返回首页">
+    <span class="brand-mark">BX</span>
+    <span>
+      <strong>Kangxin Bao</strong>
+      <small>AI 产品经理</small>
+    </span>
+  </a>
+  <div class="status-container" aria-label="当前动态">
+    <span class="status-dot"></span>
+    <span class="status-text">持续更新ing...</span>
+  </div>
+  <nav class="nav-links" aria-label="洞察页导航">
+    <a href="index.html#about">关于我</a>
+    <a href="index.html#projects">项目经验</a>
+    <a href="index.html#insights">产品洞察</a>
+    <a class="resume-button" href="index.html#hero">返回首页</a>
+  </nav>
+</header>
+    <main>
+      <section class="section insight-archive-hero">
+        <p class="top-tag">AI INSIGHTS</p>
+        <h1>产品洞察</h1>
+        <p class="detail-lead">
+          记录我使用 AI 工具、搭建产品工作流和拆解 AI 产品时的真实观察。每篇文章均先由自动化工作流协助聚合与初筛，再经人工 Review 后发布。
+        </p>
+      </section>
+
+      <section class="section insight-archive-list" aria-label="产品洞察文章列表">
+        <a class="insight-archive-card" href="insights/four-ai-tools-one-website-role-division.html">
+          <div>
+            <span class="keyword-tag">AI工具</span>
+            <h3>四个 AI 怎么分工？从设计、执行到文案精修</h3>
+            <p>Gemini 找方向、Codex 做执行、Claude 梳理逻辑、DeepSeek 润色中文：四个工具各自解决不同问题。</p>
+          </div>
+          <span class="publish-date">2026.07.21</span>
+        </a>
+        <a class="insight-archive-card" href="insights/ai-built-my-website-design-alignment.html">
+          <div>
+            <span class="keyword-tag">AI设计</span>
+            <h3>AI 建站真正难的，不是生成，而是把“感觉”翻译成设计</h3>
+            <p>Lovable 帮我缩小设计选择，Codex 把明确意图落实成代码；真正困难的是把模糊审美变成可执行要求。</p>
+          </div>
+          <span class="publish-date">2026.07.22</span>
+        </a>
+      </section>
+    </main>
+    <footer class="detail-copyright">© 2026 Kangxin Bao. All rights reserved.</footer>
+    <script src="main.js"></script>
+    <script>
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    </script>
+  </body>
+</html>

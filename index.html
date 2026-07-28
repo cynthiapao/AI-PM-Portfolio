@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kangxin Bao | AI 产品经理作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="home.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="preview-nav">
+    <a class="preview-brand" href="index.html">Kangxin Bao.</a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#about" class="nav-item">关于我</a>
+      <a href="#projects" class="nav-item">项目经验</a>
+      <a href="#insights" class="nav-item">产品洞察</a>
+      <a class="nav-btn-primary" href="#contact">
+        <i data-lucide="mail"></i>
+        联系方式
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="preview-hero hero-container" id="hero" aria-labelledby="preview-title">
+      <img class="preview-avatar hero-avatar" src="profile-picture.png" alt="Kangxin Bao 职业形象照" />
+      <p class="preview-kicker">AI Product Manager for B-end Business</p>
+      <h1 class="hero-title" id="preview-title">
+        Designing reliable AI <br />products for complex <br />business workflows.
+      </h1>
+      <p class="preview-intro hero-description">
+        我是 Kangxin Bao，一名 B 端 AI 产品经理。既懂大模型的行为边界，也懂 B 端系统的架构约束，专注于让 AI 在真实场景里成为可信赖的决策伙伴。
+      </p>
+
+      <div class="credential-strip" aria-label="职业背书">
+        <div class="credential-inner">
+          <span>7.5 年复杂业务落地</span>
+          <span>哥大统计与算法背景</span>
+          <span>5 年大型平台 B 端产品经验</span>
+        </div>
+      </div>
+
+      <div class="preview-actions hero-action-btns" aria-label="核心行动">
+        <a class="primary-action" href="#projects">浏览核心项目→</a>
+        <a class="secondary-action" href="#insights">阅读 AI 产品洞察</a>
+      </div>
+    </section>
+
+    <section class="preview-about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading about-heading">
+        <p class="eyebrow">Capability Stack</p>
+        <h2 id="about-title">About Me</h2>
+        <p>
+          兼具数据算法、系统架构与人文洞察的复合背景，致力于构建可落地的 AI 解决方案。
+        </p>
+      </div>
+
+      <div class="capability-grid">
+        <article class="capability-card">
+          <div class="card-header-row">
+            <span class="capability-icon icon-blue" aria-hidden="true"><i data-lucide="workflow"></i></span>
+            <span class="pill-tag">AI 与工程协同</span>
+          </div>
+          <h3 class="card-title">AI 工程架构与落地交付 <span class="proof-tag">Agent</span></h3>
+          <p class="card-desc">
+            能独立搭建 Agent 工作流做落地验证，擅长将业务规则抽象为结构化的系统逻辑，与研发高效对接，推动 AI 架构稳定交付。
+          </p>
+        </article>
+
+        <article class="capability-card">
+          <div class="card-header-row">
+            <span class="capability-icon icon-green" aria-hidden="true"><i data-lucide="chart-no-axes-combined"></i></span>
+            <span class="pill-tag">数据驱动力</span>
+          </div>
+          <h3 class="card-title">数据挖掘与量化分析 <span class="proof-tag">哥大统计</span></h3>
+          <p class="card-desc">
+            哥大定量研究硕士，2.5 年资深分析经验。既懂机器学习与统计建模的底层逻辑，也能将海量数据转化为可落地的业务策略。
+          </p>
+        </article>
+
+        <article class="capability-card">
+          <div class="card-header-row">
+            <span class="capability-icon icon-orange" aria-hidden="true"><i data-lucide="blocks"></i></span>
+            <span class="pill-tag">全链路闭环</span>
+          </div>
+          <h3 class="card-title">复杂 B 端系统架构 <span class="proof-tag">5年+</span></h3>
+          <p class="card-desc">
+            5 年大型平台商家端产品经验，深谙长链路业务流设计。擅长建立全链路指标追踪体系，用真实业务数据验证效果并驱动迭代。
+          </p>
+        </article>
+
+        <article class="capability-card">
+          <div class="card-header-row">
+            <span class="capability-icon icon-purple" aria-hidden="true"><i data-lucide="users-round"></i></span>
+            <span class="pill-tag">用户共情力</span>
+          </div>
+          <h3 class="card-title">社会学 × 用户体验洞察 <span class="proof-tag">UX</span></h3>
+          <p class="card-desc">
+            社会学视角洞察用户真实处境，坚持站在商家立场，理解其日常经营动线，将 AI 架构转化为符合商家认知直觉的体验。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="preview-projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-row project-heading-row">
+        <div>
+          <p class="section-kicker">Portfolio</p>
+          <h2 id="projects-title">项目经验</h2>
+          <p>从门店数据、异常诊断到经营闭环的产品实践。</p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="项目分类">
+          <button class="tab active" type="button" data-filter="all">全部</button>
+          <button class="tab" type="button" data-filter="ai">AI 核心实战</button>
+          <button class="tab" type="button" data-filter="foundation">B 端数据产品</button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card feature-card" data-category="ai">
+          <div class="feature-visual" aria-label="AI 门店经营助手产品入口示意">
+            <div class="dashboard-mock">
+              <div class="mock-topbar">
+                <span>经营看板</span>
+                <span>昨日</span>
+              </div>
+              <div class="metric-row">
+                <div class="metric-card">
+                  <span>曝光</span>
+                  <strong>2580</strong>
+                </div>
+                <div class="metric-card">
+                  <span>订单数</span>
+                  <strong>13</strong>
+                </div>
+                <div class="metric-card">
+                  <span>交易额</span>
+                  <strong>110元</strong>
+                </div>
+              </div>
+              <div class="trend-strip" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="ai-entry-card">
+                <div class="ai-entry-head">
+                  <span class="ai-entry-chip">AI 诊断</span>
+                  <span class="alert-pill">3 项</span>
+                </div>
+                <h4>昨日经营警报</h4>
+                <p>爆品缺失，缺少同区域热销品类。</p>
+                <div class="strategy-row">
+                  <span>建议上架节令热销品类</span>
+                  <button type="button">一键应用策略</button>
+                </div>
+                <div class="applied-state">
+                  <span aria-hidden="true">✓</span>
+                  <span>已应用，进入效果追踪</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-content">
+            <div class="project-card-head">
+              <div class="tag-group">
+                <span class="keyword-tag">MVP 架构验证</span>
+                <span class="keyword-tag">0-1 闭环设计</span>
+              </div>
+              <h3 class="card-title">AI 门店经营助手：<span class="feature-title-sub">从数据洞察到辅助经营闭环</span></h3>
+            </div>
+            <div class="star-grid">
+              <p>
+                <strong>Context</strong>
+                解决本地生活商家“数据看不懂、策略难执行”的痛点，将资深运营经验沉淀为 AI 标准化能力，实现双端降本增效。
+              </p>
+              <p>
+                <strong>Architecture</strong>
+                构建从预警、洞察到执行的 AI Agent 架构：底层融合大模型与规则精准诊断，应用层实现人机协同，AI 推送策略，商家一键确认执行。
+              </p>
+              <p>
+                <strong>Impact</strong>
+                首批试点商家跑通，数据洞察归因从 多日缩短至当天，策略执行率接近翻倍，验证 AI 切入商家经营流的商业价值。
+              </p>
+            </div>
+            <a class="project-detail-link card-link" href="ai-store-assistant.html">
+              查看项目详情
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-card-head">
+            <h3 class="card-title">AI 门店异常归因诊断</h3>
+            <div class="tag-group">
+              <span class="keyword-tag">Agent</span>
+              <span class="keyword-tag">复杂链路诊断</span>
+            </div>
+          </div>
+          <p class="card-description">
+            针对门店基础信息错误、资产关系错乱、真实性异常、门店唯一性定位失败等复杂场景，设计主因、次因、辅因三层归因体系，将人工排查压缩为分钟级根因定位。
+          </p>
+          <a class="project-detail-link card-link" href="ai-store-diagnosis.html">
+            查看项目详情
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-card-head">
+            <h3 class="card-title">AI 门店数据智能查询</h3>
+            <div class="tag-group">
+              <span class="keyword-tag">知识库</span>
+              <span class="keyword-tag">意图识别</span>
+            </div>
+          </div>
+          <p class="card-description">
+            面向大型平台复杂的门店数据体系，基于门店域知识库、意图识别与模板化查询搭建统一入口，降低业务方和外部合作方的数据获取门槛。
+          </p>
+          <a class="project-detail-link card-link" href="ai-store-query.html">
+            查看项目详情
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="project-card" data-category="foundation">
+          <div class="project-card-head">
+            <h3 class="card-title">商家经营数据产品体系</h3>
+            <div class="tag-group">
+              <span class="keyword-tag">业务基建操盘</span>
+              <span class="keyword-tag">体系演进</span>
+            </div>
+          </div>
+          <p class="card-description">
+            围绕商家与门店经营数据全链路，聚焦识商家、管门店、促经营三个核心命题，三层能力逐层递进，为上层 AI 应用提供标准化数据基础与规则能力。
+          </p>
+          <div class="project-link-stack">
+            <a class="project-detail-link card-link" href="merchant-cognition.html">
+              查看商家认知
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="project-detail-link card-link" href="store-supply.html">
+              查看门店供给
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-card-head">
+            <h3 class="card-title">前沿 AI 产品商业化拆解</h3>
+            <div class="tag-group">
+              <span class="keyword-tag">产品深度拆解</span>
+            </div>
+          </div>
+          <p class="card-description">
+            持续拆解主流 AI 产品的目标行业、核心痛点、用户动线与商业化策略，不只关注技术亮点，更注重将案例经验转化为可迁移的通用产品设计方法。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="preview-insights" id="insights" aria-labelledby="insights-title">
+      <div class="section-heading preview-section-heading">
+        <p class="eyebrow">AI Insights</p>
+        <h2 id="insights-title">产品洞察</h2>
+        <p>本板块由 AI 自动化工作流协助聚合、初筛行业资讯，经人工 Review 后发布。</p>
+      </div>
+
+      <div class="insights-list">
+        <!-- INSIGHTS_AUTO_START -->
+        <a class="insight-item" href="insights/four-ai-tools-one-website-role-division.html">
+          <div class="insight-main">
+            <h3>四个 AI 怎么分工？从设计、执行到文案精修</h3>
+            <p>Gemini 找方向、Codex 做执行、Claude 梳理逻辑、DeepSeek 润色中文：四个工具各自解决不同问题。</p>
+          </div>
+          <div class="insight-side">
+            <span class="keyword-tag">AI工具</span>
+            <span class="read-time">5 min read</span>
+          </div>
+        </a>
+
+        <a class="insight-item" href="insights/ai-built-my-website-design-alignment.html">
+          <div class="insight-main">
+            <h3>AI 建站真正难的，不是生成，而是把“感觉”翻译成设计</h3>
+            <p>Lovable 帮我缩小设计选择，Codex 把明确意图落实成代码；真正困难的是把模糊审美变成可执行要求。</p>
+          </div>
+          <div class="insight-side">
+            <span class="keyword-tag">AI设计</span>
+            <span class="read-time">5 min read</span>
+          </div>
+        </a>
+
+        <a class="insights-all-link" href="insights.html">查看全部产品洞察 →</a>
+        <!-- INSIGHTS_AUTO_END -->
+      </div>
+    </section>
+
+    <section class="preview-contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading preview-section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">联系方式</h2>
+      </div>
+
+      <div class="contact-panel contact-cards">
+        <a class="contact-action" href="mailto:kangxin.bao@gmail.com" aria-label="发送邮件">
+          <span class="contact-icon" aria-hidden="true"><i data-lucide="mail"></i></span>
+          <span>Email</span>
+        </a>
+        <a class="contact-action" href="https://www.linkedin.com/in/kangxin-bao/" target="_blank" rel="noreferrer" aria-label="打开 LinkedIn 主页">
+          <span class="contact-icon contact-icon-text" aria-hidden="true">in</span>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+
+      <p class="copyright">© 2026 Kangxin Bao. All rights reserved.</p>
+    </section>
+
+  </main>
+
+  <script>
+    const tabs = document.querySelectorAll(".tab");
+    const projectCards = document.querySelectorAll(".project-card");
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const filter = tab.dataset.filter;
+
+        tabs.forEach((item) => item.classList.remove("active"));
+        tab.classList.add("active");
+
+        projectCards.forEach((card) => {
+          const visible = filter === "all" || card.dataset.category === filter;
+
+          if (visible) {
+            card.classList.remove("is-hidden");
+            requestAnimationFrame(() => {
+              card.classList.remove("is-filtered-out");
+            });
+            return;
+          }
+
+          card.classList.add("is-filtered-out");
+          window.setTimeout(() => {
+            if (card.classList.contains("is-filtered-out")) {
+              card.classList.add("is-hidden");
+            }
+          }, 220);
+        });
+      });
+    });
+
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 门店异常归因诊断 | Kangxin Bao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="detail.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="detail-page">
+    <header class="site-header">
+      <a class="brand" href="index.html#hero" aria-label="返回首页">
+        <span class="brand-mark">BX</span>
+        <span>
+          <strong>Kangxin Bao</strong>
+          <small>AI 产品经理</small>
+        </span>
+      </a>
+
+      <div class="status-container" aria-label="当前动态">
+        <span class="status-dot"></span>
+        <span class="status-text">持续更新ing...</span>
+      </div>
+
+      <nav class="nav-links" aria-label="详情页导航">
+        <a href="index.html#about">关于我</a>
+        <a href="index.html#projects">项目经验</a>
+        <a href="index.html#insights">产品洞察</a>
+        <a class="resume-button" href="index.html#hero">返回首页</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="detail-hero section">
+        <div class="detail-hero-copy">
+          <div class="header-section">
+            <span class="top-tag">CASE STUDY</span>
+            <h1 class="main-title detail-title-compact">AI 门店异常归因诊断</h1>
+            <h2 class="sub-title">从<span>人工排查</span>到<span>标准化诊断链路</span></h2>
+            <div class="decorative-line"></div>
+          </div>
+          <p class="detail-lead">
+            面向门店基础信息错误、资产关系错乱、真实性异常和唯一性定位失败等复杂场景，将后台人工排查升级为前台可承接的标准化诊断链路。
+          </p>
+          <div class="pill-row detail-pills" aria-label="项目关键结果">
+            <span>分钟级初步归因</span>
+            <span>责任争议明显下降</span>
+            <span>归因复核通过试点验证</span>
+          </div>
+        </div>
+
+        <aside class="detail-summary-card" aria-label="我的负责范围">
+          <dl>
+            <div>
+              <dt>我的角色</dt>
+              <dd>AI 产品经理 / Agent 方案负责人</dd>
+            </div>
+            <div>
+              <dt>负责范围</dt>
+              <dd>问题抽象、归因体系、Agent 工作流、模型边界、核心场景验证</dd>
+            </div>
+            <div>
+              <dt>交付产出</dt>
+              <dd>标准化诊断链路、字段级 / Case 级归因结果、责任路由方案</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Problem</p>
+          <h2>业务痛点与破局点</h2>
+          <p>
+            本地生活交易需要向 C 端用户展示门店详情页，并支撑搜索、导航、到店核销等关键链路。门店数据不是后台资料，而是直接影响用户能不能找到店、到不了店、核不了券的交易基础设施。
+          </p>
+        </div>
+
+        <div class="detail-card-grid three-columns">
+          <article class="detail-card">
+            <span class="card-pill">痛点一</span>
+            <h3>排查链路长，处理节奏慢</h3>
+            <p>
+              复杂异常 Case 往往需要跨多张表查看当前值、推荐值、变更记录和流程信息。单个 Case 人工排查通常需要半小时级甚至更久。
+            </p>
+          </article>
+          <article class="detail-card">
+            <span class="card-pill">痛点二</span>
+            <h3>归因标准不统一</h3>
+            <p>
+              同一类异常可能被归到提报、审核、写入或维护等不同环节。缺少统一的字段级、Case 级归因口径，后续责任流转和修复动作也会反复拉齐。
+            </p>
+          </article>
+          <article class="detail-card">
+            <span class="card-pill">痛点三</span>
+            <h3>人工经验难沉淀</h3>
+            <p>
+              人工投入足够时间可以查到问题所在，但过程依赖个人经验，难以稳定复用。真正需要沉淀的是错误怎么来的、哪个环节本该拦截、后续应该如何处理。
+            </p>
+          </article>
+        </div>
+
+        <div class="detail-callout">
+          <p>
+            这个项目承接门店供给治理中沉淀的复杂异常样本和规则边界，将证据聚合、归因判断和处理建议标准化，让业务和运营可以更快完成判断与处置。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Impact</p>
+          <h2>核心成果与交付价值</h2>
+          <p>
+            这个项目的交付价值，是把运营人员的复杂排查经验沉淀为 AI 可执行的诊断链路，让异常归因从人工查证变成系统化判断。
+          </p>
+        </div>
+
+        <div class="result-table" role="table" aria-label="项目关键结果">
+          <div role="row">
+            <span role="columnheader">指标层级</span>
+            <span role="columnheader">业务基线</span>
+            <span role="columnheader">方案结果</span>
+            <span role="columnheader">价值说明</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">排查效率</span>
+            <span role="cell" data-label="业务基线">人工单 Case 排查耗时较长</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">系统分钟级产出初步归因报告，排查时长显著缩短</strong></span>
+            <span role="cell" data-label="价值说明">变更触发走分钟级诊断，巡检异常按批量节奏归因。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">责任一致性</span>
+            <span role="cell" data-label="业务基线">依赖运营经验判断，标准不一</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">责任归因争议明显下降</strong></span>
+            <span role="cell" data-label="价值说明">以历史人工判断分歧和二次改判为基线，系统统一输出主因、次因、辅因和责任阶段，减少后续争议与返工。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">结论质量</span>
+            <span role="cell" data-label="业务基线">依赖人工复核，口径不稳定</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">核心归因结论通过人工复核验证</strong></span>
+            <span role="cell" data-label="价值说明">由业务专家抽检系统输出的主因、次因、辅因结论，判断是否足以支撑责任判断和后续处理。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">能力沉淀</span>
+            <span role="cell" data-label="业务基线">人工流程分散，难复用</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">沉淀 4 类核心异常场景的诊断口径</strong></span>
+            <span role="cell" data-label="价值说明">形成可复用的门店数据问题排查框架。</span>
+          </div>
+        </div>
+
+        <div class="contribution-grid">
+          <article>
+            <h3>归因体系设计</h3>
+            <p>将人工排查经验抽象为主因、次因、辅因三层体系，明确字段级和 Case 级结果如何输出。</p>
+          </article>
+          <article>
+            <h3>AI 工作流设计</h3>
+            <p>设计信息溯源、多源比对、归因判断、责任路由等核心能力，并拆分 Agent、规则引擎和解释展示职责。</p>
+          </article>
+          <article>
+            <h3>核心场景验证</h3>
+            <p>基于真实复杂异常场景验证诊断链路可行性，评估排查时长、责任归因一致性和结论可解释性。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow</p>
+          <h2>诊断链路与用户动线</h2>
+          <p>
+            AI 门店异常归因诊断的核心用户，是需要处理异常 Case 的运营人员和相关业务团队。系统把分散在人工经验里的判断动作，变成一条标准化、可复用的诊断流程。
+          </p>
+        </div>
+
+        <div class="workflow-diagram diagnosis-flow diagnosis-flow-v2" aria-label="AI 门店异常归因诊断链路图">
+          <div class="diagnosis-scope-banner">
+            覆盖诊断范围：门店基础信息 ｜ 资产关系错乱 ｜ 真实性校验 ｜ 唯一性定位失败
+          </div>
+
+          <div class="diagnosis-chain-grid">
+            <article class="diagnosis-chain-card">
+              <span class="diagnosis-card-badge">INPUT</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">1</span>
+                <h3>异常来源</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="alert-triangle" aria-hidden="true"></i>巡检异常</span>
+                <span><i data-lucide="user-check" aria-hidden="true"></i>人工确认值</span>
+                <span><i data-lucide="x-circle" aria-hidden="true"></i>审核驳回 Case</span>
+                <span><i data-lucide="message-square" aria-hidden="true"></i>业务反馈问题</span>
+              </div>
+            </article>
+
+            <article class="diagnosis-chain-card">
+              <span class="diagnosis-card-badge">EVIDENCE</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">2</span>
+                <h3>证据与工具能力</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="bar-chart-2" aria-hidden="true"></i>门店特征数据</span>
+                <span><i data-lucide="scale" aria-hidden="true"></i>多源参考值比对</span>
+                <span><i data-lucide="file-text" aria-hidden="true"></i>变更记录解析</span>
+                <span><i data-lucide="refresh-cw" aria-hidden="true"></i>业务流转记录</span>
+              </div>
+            </article>
+
+            <article class="diagnosis-chain-card diagnosis-core-card">
+              <span class="diagnosis-card-badge">AI CORE</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">3</span>
+                <h3>AI 归因逻辑层</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="zap" aria-hidden="true"></i>字段事件流</span>
+                <span><i data-lucide="brain" aria-hidden="true"></i>主次辅因判断</span>
+                <span><i data-lucide="message-circle" aria-hidden="true"></i>模糊语义判断</span>
+                <span><i data-lucide="git-fork" aria-hidden="true"></i>责任路由</span>
+              </div>
+            </article>
+
+            <article class="diagnosis-chain-card">
+              <span class="diagnosis-card-badge">ACTION</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">4</span>
+                <h3>结论与处理建议</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="pie-chart" aria-hidden="true"></i>主因 / 次因 / 辅因</span>
+                <span><i data-lucide="shield-check" aria-hidden="true"></i>证据说明</span>
+                <span class="diagnosis-action-pill"><i data-lucide="sparkles" aria-hidden="true"></i>处理动作</span>
+                <span><i data-lucide="activity" aria-hidden="true"></i>结果追踪</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="diagnosis-return-flow" aria-hidden="true">
+            <span>异常状态更新 · 人工纠错反哺</span>
+            <svg viewBox="0 0 1000 56" role="img" aria-label="异常状态更新与人工纠错回流至异常来源">
+              <defs>
+                <marker id="diagnosisReturnArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                  <path d="M0,0 L8,4 L0,8 Z"></path>
+                </marker>
+              </defs>
+              <path d="M940 8 C760 50 240 50 60 8" marker-end="url(#diagnosisReturnArrow)"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="detail-copy-block">
+          <p>
+            系统先承接巡检、人工确认、审核驳回和业务反馈等异常入口，再判断问题属于门店基础信息错误、资产关系错乱、真实性异常还是门店唯一性定位失败。
+          </p>
+          <p>
+            系统基于证据链判断主因、次因、辅因，并给出对应处理动作，后续可以继续跟进修复状态和处理结果。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Guardrails</p>
+          <h2>架构设计与大模型行为边界</h2>
+          <p>
+            异常归因不能让模型直接猜原因。我的设计原则是：规则负责可验证判断，模型只处理规则覆盖不了的语义判断，每个结论都要有依据可查。
+          </p>
+        </div>
+
+        <div class="detail-card-grid four-columns">
+          <article class="detail-card compact-card">
+            <span class="card-pill">编排</span>
+            <h3>主 Agent</h3>
+            <p>负责理解用户输入、识别诊断意图、抽取必要参数，并决定进入哪条诊断链路。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">确定性</span>
+            <h3>规则与执行计划层</h3>
+            <p>负责参数校验、信息查询计划、值比对、差异分类、事件分层、置信度计算等任务。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">语义</span>
+            <h3>LLM 辅助判断</h3>
+            <p>当规则无法判断时，只基于已有证据处理品牌主干、地址差异、多字段变化等语义判断。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">输出</span>
+            <h3>解释与展示层</h3>
+            <p>将结构化诊断结果翻译成业务人员能理解的归因说明，并组织字段级、Case 级报告。</p>
+          </article>
+        </div>
+
+        <div class="detail-callout">
+          <p>
+            这套架构的价值，是把“找证据”和“下结论”拆开：Agent 编排查询流程，规则和工具完成取数与确定性校验，LLM 只基于证据处理语义判断和业务解释。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Iteration</p>
+          <h2>演进历程与落地反思</h2>
+          <p>
+            这次复盘最大的收获，是把诊断系统里哪些靠规则、哪些靠模型、哪些靠产品流程承接，拆得更清楚。
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>01</span>
+            <h3>别让模型越过证据下结论</h3>
+            <div class="timeline-points">
+              <p>
+                早期让模型直接判断名称、地址是否异常时，结论不够稳定。后来改为 Agent 先编排证据查询，规则和工具完成取数与确定性校验。
+              </p>
+              <p>
+                LLM 只基于证据处理品牌相似、地址差异等语义判断。这样保留理解能力，也避免模型直接拍结论。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>02</span>
+            <h3>归因不是找错，是还原链路</h3>
+            <div class="timeline-points">
+              <p>
+                主因、次因、辅因不是给责任方贴标签，而是说明错误怎么发生。提报、审核、写入、维护，每个环节都可能出问题。
+              </p>
+              <p>
+                只有把链路讲清楚，后续才知道该谁处理、怎么处理、是否需要复核。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>03</span>
+            <h3>工具调用先定计划</h3>
+            <div class="timeline-points">
+              <p>
+                模型不应该自由试工具。系统先生成执行计划，再按计划取门店特征、参考值和变更记录；失败时直接兜底。
+              </p>
+              <p>
+                理解、执行、解释、展示分开后，换页面或换输出格式时，不需要重写诊断逻辑。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section detail-section detail-next">
+        <a class="secondary-cta" href="index.html#projects">← 返回项目经验</a>
+        <a class="primary-cta" href="ai-store-query.html">
+          查看 AI 门店数据智能查询
+          <span aria-hidden="true">→</span>
+        </a>
+      </section>
+    </main>
+    <footer class="detail-copyright">© 2026 Kangxin Bao. All rights reserved.</footer>
+    <script src="main.js"></script>
+    <script>
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    </script>
+  </body>
+</html>
+
+
+
+

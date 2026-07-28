@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 门店数据智能查询 | Kangxin Bao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="detail.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body class="detail-page">
+    <header class="site-header">
+      <a class="brand" href="index.html#hero" aria-label="返回首页">
+        <span class="brand-mark">BX</span>
+        <span>
+          <strong>Kangxin Bao</strong>
+          <small>AI 产品经理</small>
+        </span>
+      </a>
+
+      <div class="status-container" aria-label="当前动态">
+        <span class="status-dot"></span>
+        <span class="status-text">持续更新ing...</span>
+      </div>
+
+      <nav class="nav-links" aria-label="详情页导航">
+        <a href="index.html#about">关于我</a>
+        <a href="index.html#projects">项目经验</a>
+        <a href="index.html#insights">产品洞察</a>
+        <a class="resume-button" href="index.html#hero">返回首页</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="detail-hero section">
+        <div class="detail-hero-copy">
+          <div class="header-section">
+            <span class="top-tag">CASE STUDY</span>
+            <h1 class="main-title detail-title-compact">AI 门店数据智能查询</h1>
+            <h2 class="sub-title">从<span>口径答疑</span>到<span>自助查数</span></h2>
+            <div class="decorative-line"></div>
+          </div>
+          <p class="detail-lead">
+            围绕高频门店数据查询，把口径答疑、自然语言提问和安全查询链路串起来，让业务方不用排队提数，也能拿到口径一致的结果。
+          </p>
+          <div class="pill-row detail-pills" aria-label="项目关键结果">
+            <span>多日等待压缩至秒级</span>
+            <span>高频提数可自助承接</span>
+            <span>工具偏航明显下降</span>
+          </div>
+        </div>
+
+        <aside class="detail-summary-card" aria-label="我的负责范围">
+          <dl>
+            <div>
+              <dt>我的角色</dt>
+              <dd>AI 产品经理 / 智能查询方案设计</dd>
+            </div>
+            <div>
+              <dt>负责范围</dt>
+              <dd>场景拆解、知识库组织、查询链路设计、工具边界和安全校验</dd>
+            </div>
+            <div>
+              <dt>交付产出</dt>
+              <dd>自助查询入口、查询计划链路、口径说明规范和安全边界方案</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Problem</p>
+          <h2>业务痛点与破局点</h2>
+          <p>
+            门店数据分散在多套系统和数据表里，产品、运营和分析人员每天都会反复追问：某类门店有多少、某个门店的明细是什么、门店之间是什么关系、业务口径到底怎么定义。
+          </p>
+        </div>
+
+        <div class="detail-card-grid four-columns">
+          <article class="detail-card compact-card">
+            <span class="card-pill">痛点一</span>
+            <h3>口径问题高频重复</h3>
+            <p>
+              门店主体、门店状态、经营口径等定义容易混淆。每次查数前都要先确认口径，数据同学和资深业务同学反复答疑。
+            </p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">痛点二</span>
+            <h3>查表写查询门槛高</h3>
+            <p>
+              门店数据分散在多张资产表中，表名、字段、分区、ID 类型和过滤条件都需要专业知识，业务方很难独立完成查询。
+            </p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">痛点三</span>
+            <h3>提需求等排期慢</h3>
+            <p>
+              过去高频查询通常要提交数据需求，等待排期和返回结果。一个简单查数需求也可能等待多日。
+            </p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">痛点四</span>
+            <h3>查询口径不稳定</h3>
+            <p>
+              同一问题如果实体类型和业务过滤条件理解不同，结果可能完全不同。口径不一致会让业务基于错误理解做判断。
+            </p>
+          </article>
+        </div>
+
+        <div class="detail-callout">
+          <p>
+            关键判断：提示词不是安全边界。这个项目真正花时间的地方，不是让模型自由写查询语句，而是先把知识库、查询模板、口径规则和工具边界沉淀清楚。这套方法后来也延伸到门店异常归因诊断和经营助手项目里，成为规则、工具与模型分工的基础。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Impact</p>
+          <h2>核心成果与交付价值</h2>
+          <p>
+            这个项目的交付价值，是把分散的业务口径、查询经验和门店数据资产，转化为业务方可直接使用的自助查询能力。
+          </p>
+        </div>
+
+        <div class="result-table" role="table" aria-label="项目关键结果">
+          <div role="row">
+            <span role="columnheader">指标层级</span>
+            <span role="columnheader">业务基线</span>
+            <span role="columnheader">方案结果</span>
+            <span role="columnheader">价值说明</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">查询效率</span>
+            <span role="cell" data-label="业务基线">提数据需求后常需等待</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">常规查询可秒级返回</strong></span>
+            <span role="cell" data-label="价值说明">减少排期等待与沟通成本。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">临时提数承接</span>
+            <span role="cell" data-label="业务基线">数据同学反复响应相似问题</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">高频提数可自助承接</strong></span>
+            <span role="cell" data-label="价值说明">释放重复提数工时。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">口径一致</span>
+            <span role="cell" data-label="业务基线">同类问题不同人查，结果容易不一致</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">同类查询复用统一口径</strong></span>
+            <span role="cell" data-label="价值说明">减少反复确认和结果争议。</span>
+          </div>
+          <div role="row">
+            <span role="cell" data-label="指标层级">稳定与安全</span>
+            <span role="cell" data-label="业务基线">早期工具链偏航较明显，安全依赖人工经验</span>
+            <span role="cell" data-label="方案结果"><strong class="result-highlight">偏航明显下降，并新增拦截机制</strong></span>
+            <span role="cell" data-label="价值说明">降低性能、越权和注入风险。</span>
+          </div>
+        </div>
+
+        <div class="contribution-grid">
+          <article>
+            <h3>高频场景抽象</h3>
+            <p>将日常查询拆成口径解释、简单统计、明细导出、关系查询四类主路径，明确输入、输出和适用边界。</p>
+          </article>
+          <article>
+            <h3>知识库组织</h3>
+            <p>沉淀业务概念、实体类型、查询模板、口径规则和安全边界，让 AI 在明确范围内完成查询任务。</p>
+          </article>
+          <article>
+            <h3>稳定性与安全边界</h3>
+            <p>通过模板化查询、白名单资产、高风险查询拦截和结构化执行计划，降低查询偏航和口径不一致风险。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow</p>
+          <h2>查询链路与用户动线</h2>
+          <p>
+            这个工具服务于需要快速获取门店数据的产品、运营和分析人员。它把原本需要问人、查表、写查询语句、等排期的过程，收敛成一条清晰的自助查询链路。
+          </p>
+        </div>
+
+        <div class="workflow-diagram query-flow-v2" aria-label="AI 门店数据智能查询链路图">
+          <div class="query-chain-grid">
+            <article class="query-chain-card">
+              <span class="diagnosis-card-badge">INPUT</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">1</span>
+                <h3>用户提问与意图解析</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="message-square" aria-hidden="true"></i>口语表达解析</span>
+                <span><i data-lucide="brain" aria-hidden="true"></i>查询意图识别</span>
+                <span><i data-lucide="sliders-horizontal" aria-hidden="true"></i>参数自动补全</span>
+                <span><i data-lucide="help-circle" aria-hidden="true"></i>必要澄清追问</span>
+              </div>
+            </article>
+
+            <article class="query-chain-card query-core-card">
+              <span class="diagnosis-card-badge">AI CORE</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">2</span>
+                <h3>查询计划生成</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="database" aria-hidden="true"></i>资产与字段匹配</span>
+                <span><i data-lucide="file-code-2" aria-hidden="true"></i>查询模板选择</span>
+                <span><i data-lucide="shield-check" aria-hidden="true"></i>安全边界校验</span>
+                <span><i data-lucide="sparkles" aria-hidden="true"></i>查询计划编排</span>
+              </div>
+            </article>
+
+            <article class="query-chain-card">
+              <span class="diagnosis-card-badge">ENGINE</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">3</span>
+                <h3>安全执行与检索</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="shield-check" aria-hidden="true"></i>白名单鉴权</span>
+                <span><i data-lucide="send" aria-hidden="true"></i>查询任务提交</span>
+                <span><i data-lucide="refresh-cw" aria-hidden="true"></i>状态轮询获取</span>
+                <span><i data-lucide="database" aria-hidden="true"></i>结果数据返回</span>
+              </div>
+            </article>
+
+            <article class="query-chain-card">
+              <span class="diagnosis-card-badge">OUTPUT</span>
+              <div class="diagnosis-card-title">
+                <span class="flow-stage-index">4</span>
+                <h3>结果解释与呈现</h3>
+              </div>
+              <div class="diagnosis-pill-list">
+                <span><i data-lucide="bar-chart-2" aria-hidden="true"></i>图表渲染</span>
+                <span><i data-lucide="file-text" aria-hidden="true"></i>口径说明</span>
+                <span><i data-lucide="alert-circle" aria-hidden="true"></i>空结果解释</span>
+                <span class="query-followup-pill"><i data-lucide="sparkles" aria-hidden="true"></i>智能追问建议</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="query-return-flow" aria-hidden="true">
+            <span>结果追问 · 口径校准闭环</span>
+            <svg viewBox="0 0 1000 56" role="img" aria-label="结果追问回流至用户提问">
+              <defs>
+                <marker id="queryReturnArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                  <path d="M0,0 L8,4 L0,8 Z"></path>
+                </marker>
+              </defs>
+              <path d="M940 8 C760 50 240 50 60 8" marker-end="url(#queryReturnArrow)"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="detail-copy-block">
+          <p>
+            系统先判断用户是在问口径还是查数据。面对“帮我拉一下上个月表现比较好的店”这类口语表达，AI 会先把它翻译成时间、指标、实体范围等标准参数。
+          </p>
+          <p>
+            查询结果不只返回数字，也会同步说明口径和结果状态，区分样本未命中与查询失败，避免业务方误读数据。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Guardrails</p>
+          <h2>架构设计与大模型行为边界</h2>
+          <p>
+            数据查询不能把安全、口径和执行稳定性都交给模型。我的设计原则是：知识库沉淀业务口径，规则和脚本生成查询计划，AI 负责理解问题和解释结果。
+          </p>
+        </div>
+
+        <div class="detail-card-grid four-columns">
+          <article class="detail-card compact-card">
+            <span class="card-pill">理解</span>
+            <h3>任务编排</h3>
+            <p>负责理解用户问题，判断是否需要查数，并决定进入口径解释、查询执行还是口径澄清路径。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">口径</span>
+            <h3>知识库与规则</h3>
+            <p>沉淀业务概念、实体类型、查询模板和安全边界，让同类问题复用同一套口径。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">执行</span>
+            <h3>查询工具</h3>
+            <p>按查询计划完成提交、轮询和结果获取。工具范围由白名单控制，避免模型自由选择工具。</p>
+          </article>
+          <article class="detail-card compact-card">
+            <span class="card-pill">输出</span>
+            <h3>结果解释</h3>
+            <p>把查询结果转成业务可读的表达，补充查询口径、空结果说明和必要的下一步建议。</p>
+          </article>
+        </div>
+
+        <div class="detail-callout">
+          <p>
+            这套架构的价值，是让 AI 不再每次重新猜表、猜字段、猜查询逻辑，而是在清晰的知识库和执行边界内完成查询任务。模型主要处理自然语言理解、模糊表达和结果解释；核心查询逻辑由模板、规则和工具稳定执行。
+          </p>
+        </div>
+      </section>
+
+      <section class="section detail-section">
+        <div class="section-heading">
+          <p class="eyebrow">Iteration</p>
+          <h2>演进历程与落地反思</h2>
+          <p>
+            这是我最早的 AI 产品实践。它的价值不只在于从答疑升级到查数，更在于让我看到 AI 能力如何从回答问题，走向调用工具、完成任务。
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>01</span>
+            <h3>从回答问题到完成任务</h3>
+            <div class="timeline-points">
+              <p>
+                最早的版本只能回答口径问题，帮助业务方理解不同门店概念和统计口径。随着工具调用能力成熟，系统开始在明确口径后直接发起查询。
+              </p>
+              <p>
+                AI 产品不能只停在解释层。只要用户的下一步动作足够明确，产品就应该把答案继续接到可执行链路上。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>02</span>
+            <h3>知识库比 查询语句 更关键</h3>
+            <div class="timeline-points">
+              <p>
+                高频查询的 查询模式并不复杂，真正难的是把概念、字段、模板和安全边界组织清楚。
+              </p>
+              <p>
+                规则、模板和安全边界本质上都是知识库的一部分。知识先沉淀好，AI 才能稳定地把问题转成正确查询。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>03</span>
+            <h3>提示词不是安全边界</h3>
+            <div class="timeline-points">
+              <p>
+                早期每发现一次工具偏航，就往提示词里加一条禁止规则，最后指令越来越长，模型也未必稳定遵守。
+              </p>
+              <p>
+                能用代码和平台约束解决的，就不要只靠提示词。白名单工具、执行计划和高风险查询拦截，比更多禁令更可靠。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section detail-section detail-next">
+        <a class="secondary-cta" href="index.html#projects">← 返回项目经验</a>
+        <a class="primary-cta" href="merchant-cognition.html">
+          查看商家认知体系
+          <span aria-hidden="true">→</span>
+        </a>
+      </section>
+    </main>
+    <footer class="detail-copyright">© 2026 Kangxin Bao. All rights reserved.</footer>
+    <script src="main.js"></script>
+    <script>
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    </script>
+  </body>
+</html>
+
+
+
+

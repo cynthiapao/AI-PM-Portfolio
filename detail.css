@@ -737,22 +737,6 @@ a {
   transform: translateY(-2px);
 }
 
-.contact-icon {
-  display: inline-grid;
-  width: 18px;
-  height: 18px;
-  place-items: center;
-  color: var(--accent);
-  font-size: 14px;
-  line-height: 1;
-}
-
-.contact-icon-text {
-  font-size: 13px;
-  font-weight: 900;
-  font-family: Georgia, "Times New Roman", serif;
-}
-
 .copyright {
   margin: 0;
   color: #999999;

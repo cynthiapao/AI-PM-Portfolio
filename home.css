@@ -1030,22 +1030,24 @@ span {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px 16px;
 }
 
 .contact-action {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 9px;
-  min-height: 46px;
-  padding: 8px 14px 8px 9px;
+  gap: 10px;
+  height: 44px;
+  padding: 10px 16px;
   color: #0f172a;
   background: #ffffff;
-  border: 1px solid #eef2f6;
+  border: 1px solid #e2e8f0;
   border-radius: 999px;
   font-size: 13px;
   font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
   transition:
     transform 0.28s cubic-bezier(0.25, 0.8, 0.25, 1),
     box-shadow 0.28s cubic-bezier(0.25, 0.8, 0.25, 1),
@@ -1053,37 +1055,132 @@ span {
 }
 
 .contact-action:hover,
-.contact-action:focus {
+.contact-action:focus,
+.contact-action:focus-visible {
   outline: none;
   transform: translateY(-2px);
-  border-color: #bfdbfe;
-  box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.06);
+  border-color: #cbd5e1;
+  box-shadow: 0 12px 24px -6px rgba(37, 99, 235, 0.08);
 }
 
-.contact-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  color: var(--blue);
-  background: #eff6ff;
-  border: 1px solid #dbeafe;
-  border-radius: 999px;
+.brand-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
   flex: 0 0 auto;
 }
 
-.contact-icon svg {
-  width: 14px;
-  height: 14px;
-  stroke-width: 2;
+.brand-icon-email {
+  fill: none;
+  stroke: #2563eb;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-.contact-icon-text {
+.brand-icon-wechat {
+  fill: #07c160;
+}
+
+.brand-icon-linkedin {
+  fill: #0a66c2;
+}
+
+.brand-icon-x {
+  fill: #0f172a;
+}
+
+.brand-icon-rednote rect {
+  fill: #ff2442;
+}
+
+.brand-icon-rednote path {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.contact-copy {
+  border-style: solid;
+}
+
+.contact-popover {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 12px);
+  z-index: 12;
+  min-width: 168px;
+  padding: 12px;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(219, 234, 254, 0.96);
+  border-radius: 16px;
+  box-shadow: 0 18px 44px rgba(15, 23, 42, 0.12);
+  transform: translate(-50%, 8px) scale(0.97);
+  transform-origin: bottom center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    visibility 0.22s ease;
+}
+
+.contact-popover::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.98);
+  border-right: 1px solid rgba(219, 234, 254, 0.96);
+  border-bottom: 1px solid rgba(219, 234, 254, 0.96);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.contact-copy:hover .contact-popover,
+.contact-copy:focus-visible .contact-popover {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0) scale(1);
+}
+
+.contact-popover-label,
+.contact-popover-value,
+.contact-copy-btn {
+  display: block;
+  white-space: nowrap;
+}
+
+.contact-popover-label {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.contact-popover-value {
+  margin-top: 4px;
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.contact-copy-btn {
+  margin-top: 10px;
+  padding: 7px 10px;
+  color: #2563eb;
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+  border-radius: 999px;
   font-size: 12px;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  line-height: 1;
+  font-weight: 800;
+  text-align: center;
 }
 
 .copyright {
@@ -1354,6 +1451,6 @@ span {
   }
 
   .contact-action {
-    min-height: 52px;
+    height: 44px;
   }
 }

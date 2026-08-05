@@ -1,11 +1,106 @@
 # AI PM Portfolio
 
-Personal portfolio website for AI product management roles.
+一个面向 AI 应用产品经理岗位的个人作品集网站。
 
-Built with plain HTML, CSS, and JavaScript. Deployed with GitHub Pages.
+我希望它不只是一份在线简历，而是通过项目背景、产品判断、架构设计、用户动线和结果验证，完整呈现我如何将 AI 能力应用到复杂的 B 端业务流程中。
 
-## Structure
+[访问在线网站](https://cynthiapao.github.io/AI-PM-Portfolio/)
 
-- `index.html`: portfolio homepage
-- `ai-store-*.html`, `merchant-cognition.html`, `store-supply.html`: project detail pages
-- `insights.html`, `insights/`: AI product insight articles
+## 网站内容
+
+网站主要包含三个部分：
+
+- **能力背景**：算法理解、数据分析、复杂业务系统设计与用户洞察
+- **项目经验**：AI 门店经营助手、资产质量诊断、数据智能问答，以及商家经营知识与门店供给体系
+- **产品洞察**：记录 AI 工具实践、产品体验与多模型协作方法
+
+每个重点项目都按照相对完整的 Case Study 结构展开：
+
+1. 业务痛点与产品判断
+2. 核心成果与交付价值
+3. 产品闭环与用户动线
+4. 架构设计与模型边界
+5. 项目演进与复盘反思
+
+## 这个网站是怎么做出来的
+
+### 1. 先梳理内容，再开始设计
+
+最初的网站更接近一份视觉化简历，但项目之间缺少清晰的能力主线。
+
+后续迭代中，我重新整理了项目关系：从数据查询、异常诊断，到经营决策与策略执行，逐步形成 AI 能力进入真实业务流程的演进路径。
+
+### 2. 把项目经历改写为产品证据
+
+项目详情页没有直接照搬简历，而是重点回答：
+
+- 用户真正遇到了什么问题？
+- 为什么选择这套产品方案？
+- 规则、工具与大模型分别负责什么？
+- 用户通过什么入口使用产品？
+- 如何判断产品是否产生了业务价值？
+- 哪些经验可以迁移到其他 AI 产品？
+
+### 3. 用 AI 协作完成设计与开发
+
+建站过程中，我尝试让不同 AI 工具承担不同角色，包括视觉方向探索、内容结构梳理、代码实现和语言精修。
+
+相关实践记录：
+
+- [四个 AI 怎么分工？从设计、执行到文案精修](insights/four-ai-tools-one-website-role-division.html)
+- [AI 建站真正难的，不是生成，而是把感觉翻译成设计](insights/ai-built-my-website-design-alignment.html)
+
+### 4. 持续做视觉和内容减法
+
+页面经历了多轮调整，包括：
+
+- 统一字体、色彩、卡片和指标表达
+- 为项目补充产品入口与用户交互形态
+- 将复杂架构图收敛为公开可读的产品链路
+- 减少重复文案和过度抽象的技术表达
+- 针对手机端重新处理标题、网格和导航
+- 对公开内容进行脱敏，避免暴露内部业务信息
+
+## 技术实现
+
+这是一个无需构建工具的静态网站：
+
+- HTML
+- CSS
+- Vanilla JavaScript
+- Lucide Icons
+- GitHub Pages
+
+没有使用 React、Vue 或后端服务，便于维护、部署和长期更新。
+
+## 项目结构
+
+```text
+.
+├── index.html                   # 首页
+├── ai-store-assistant.html      # AI 门店经营助手
+├── ai-store-diagnosis.html      # AI 门店资产质量诊断
+├── ai-store-query.html          # AI 门店数据智能问答
+├── merchant-cognition.html      # 商家经营知识体系
+├── store-supply.html            # 门店供给保障体系
+├── insights.html                # 产品洞察列表
+├── insights/                    # 产品洞察文章
+├── home.css                     # 首页样式
+├── detail.css                   # 详情页样式
+├── main.js                      # 页面交互
+└── CHANGELOG.md                 # 网站修改记录
+```
+
+## 本地查看
+
+克隆仓库后，可直接打开 `index.html`，也可以启动简单的本地静态服务器：
+
+```bash
+python -m http.server 8000
+```
+
+然后访问 `http://localhost:8000`。
+
+## 内容说明
+
+网站中的项目内容、个人经历、文章和视觉资产仅用于个人作品展示。代码结构可以作为个人作品集建站参考，个人内容与图片请勿直接复制使用。
